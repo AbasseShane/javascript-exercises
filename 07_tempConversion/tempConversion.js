@@ -1,12 +1,9 @@
 const convertToCelsius = function(fahrenheit) {
-  let celsius = ((fahrenheit-32)*(5/9))
-  let celsiusRounded = parseFloat(celsius.toFixed(1))
-  return celsiusRounded
+  return parseFloat(((fahrenheit-32)*(5/9)).toFixed(1))
 };
 
 const convertToFahrenheit = function(celsius) {
-  let fahrenheit = parseFloat((celsius*(9/5)+32).toFixed(1))
-  return fahrenheit
+  return parseFloat((celsius*(9/5)+32).toFixed(1))
 };
 
 // Do not edit below this line
